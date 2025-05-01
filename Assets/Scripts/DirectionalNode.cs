@@ -20,16 +20,15 @@ public class DirectionalNode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     void SwitchSprite()
     {
-        if(current == "left")
+        if (current == "left")
         {
             sr.sprite = left;
         }
-        else if(current == "right")
+        else if (current == "right")
         {
             sr.sprite = right;
         }
@@ -39,3 +38,7 @@ public class DirectionalNode : MonoBehaviour
         }
     }
 }
+
+
+
+
